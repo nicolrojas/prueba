@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> INICIO | Tu propio sazón </title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body class="body">
     <!--CABECERA-->
-    <header>
-        <img src="imagenes/logo.jpg" alt="Logo"/>
+    <header class="cabecera">
+        <img  class="logo" src="imagenes/logo.jpg" alt="Logo" width=200/>
     <!--ENLACES-->
-    <nav>
-        <ul>
-<li> <a href ="index.html"> inicio</a> </li>
-<li> <a href="recetas.html"> recetas </a> </li>
-<li> <a href="planes.html"> Planes alimenticios</a> </li>
+    <nav class="navegacion">
+        <ul class="lista">
+<li> <a class="enlace" href ="index.html"> Inicio</a> </li>
+<li> <a class="enlace" href="recetas.html"> Recetas </a> </li>
+<li> <a class="enlace" href="planes.html"> Planes alimenticios</a> </li>
 </ul>
     </nav>
 </header>
@@ -23,37 +24,56 @@
 
     <!--CUERPO PRINCIPAL-->
 
-    <main> 
-        <h1>Novedades</h1>
-        <section> 
-            <img src="imagenes/Plan semanal alimenticio.jpg" alt="novedades" width="300 300"/>
-<p> Arranca con todo esta semana con el plan alimenticio saludable que ofrecemos para vos. </p>
-<a href="planes.html"> Ver más</a>
-        </section>
+    <main class="cuerpo_principal"> 
+    <section class="seccion_1"> 
+        <h2 class="titulo_cuerpo">Novedades</h2>
+        <div class="novedades_seccion_1">
+            <div class="contenedor_seccion_1">
+                <img class="img_novedades" src="imagenes/Plan semanal alimenticio.jpg" alt="novedades" width="300 300"> 
+              <div class="contenedor_1">
+                  <p class=parrafo_novedades> Arranca con todo esta semana con el plan alimenticio saludable que ofrecemos para vos. </p> 
+                  <a class="enlace_novedades" href="planes.html"> Ver más</a>
+             </div>
+              
+      </div>
+            <div class="contenedor_seccion_1">
+                 <img class="img_novedades" src="imagenes/recetas.jpg" alt="novedades" width="300 300">
+                 <div class="contenedor_1">
+                  <p class=parrafo_novedades> Innova en tu cocina con las nuevas recetas que tenemos para vos. Animate a probarlas.</p> 
+                  <a class="enlace_novedades" href="recetas.html"> Ver más</a>
+                 </div>
 
-        <section>
-<img src="imagenes/recetas.jpg" alt="novedades" width="300 300"/>
-<p> Innova en tu cocina con las nuevas recetas que tenemos para vos. Animate a probarlas.</p>
-<a href="recetas.html"> Ver más</a> 
-        </section>
-<h1> ¿Quienes somos?</h1>
-<article>
-   <p>Si te atrae probar diferentes comidas, ya estas cansado de cocinar constantemente las mismas recetas, en "Tu propio sazón" trabajamos con amor y dedicación para que encuentres nuevas maneras de cocinar, de sazonar y de experimentar con diferentes alimentos.</p> 
-   <p> Con nosotros encontrarás una gran variedad de recetas para el gusto que prefieras. Y si está interesado en tener una alimentación controlada y saludable, en esta página encontrará planes de alimentación que se amoldan al gusto que más prefiera.</p>
-</article>
-    </main>
+        </div>
+        
+                
+             
+            </section> 
+            <section class="seccion_2">
+                 <h2 class="titulo_cuerpo_1"> ¿Quienes somos?</h2>
+                  <article class="articulo_cuerpo_2"> 
+                      <p class="parrafo_novedades">Si te atrae probar diferentes comidas, ya estas cansado de cocinar constantemente las mismas recetas, en "Tu propio sazón" trabajamos con amor y dedicación para que encuentres nuevas maneras de cocinar, de sazonar y de experimentar con diferentes alimentos.</p>
+                       <p class="parrafo_novedades"> Con nosotros encontrarás una gran variedad de recetas para el gusto que prefieras. Y si está interesado en tener una alimentación controlada y saludable, en esta página encontrará planes de alimentación que se amoldan al gusto que más prefiera.</p> 
+                    </article>
+                 
+    
+</section>
+
+                    </main>
 
 
 
 
-
-<footer>
+<footer class="pie">
     <!--REDES SOCIALES DE LA PAGINA-->
-    <img src="imagenes/Icono Instagram.png" alt="Redes sociales" width="50 50"/>
-<a href="https://www.instagram.com" target="_blank"> Instagram</a>
-    <img src="imagenes/Icono fb.png" alt="Redes sociales" width="50 50" />
-    <a href="https://www.facebook.com" target="_blank"> Facebook</a>
-
+    <div class="instagram">
+        <img class="img_insta"src="imagenes/Icono Instagram.png" alt="Redes sociales" width="50 50"/>
+        <a class="enlace_pie"href="https://www.instagram.com" target="_blank"> Instagram</a>
+    </div>
+        <div class="facebook">
+            <img class="img_facebook" src="imagenes/logo facebook.png" alt="Redes sociales" width="50 50" />
+            <a class="enlace_pie" href="https://www.facebook.com" target="_blank"> Facebook</a>
+        </div>
+    
 </footer>
 
 
