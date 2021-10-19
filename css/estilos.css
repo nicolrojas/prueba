@@ -3,7 +3,6 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    flex-shrink: 1;
 
 }
 .logo{
@@ -35,6 +34,7 @@
 
 .body{
     background-color: rgb(255, 227, 227);
+    flex-shrink: 0;
 }
 
 
